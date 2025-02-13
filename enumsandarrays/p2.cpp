@@ -21,7 +21,7 @@ void storeInFile(int a[], int size = 1000, string fileName = "array0.txt") {
 void readFile(int a[], int size = 1000, string fileName = "array0.txt") {
     ifstream f(fileName);
     for (int i = 0; i < 1000; i++) {
-
+        f >> a[i];
     }
     f.close();
 }
