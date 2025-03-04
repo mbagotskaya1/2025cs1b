@@ -19,4 +19,5 @@ int main()
 {
     int * arr = getArray(3);
     printArray(arr, 3);
+    delete[] arr;
 }
