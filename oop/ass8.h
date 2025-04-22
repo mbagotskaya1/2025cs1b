@@ -86,23 +86,4 @@ public:
     void displayAllTransactions() const;
 };
 
-// class DataHandler {
-// private:
-//     string bookFile;
-//     string borrowerFile;
-//     string transactionFile;
-
-// public:
-//     DataHandler();
-
-//     bool saveBooks(Book** books, int count) const;
-//     bool loadBooks(Book**& books, int& count);
-
-//     bool saveBorrowers(Borrower** borrowers, int count) const;
-//     bool loadBorrowers(Borrower**& borrowers, int& count);
-
-//     bool saveTransactions(Transaction** transactions, int count) const;
-//     bool loadTransactions(Transaction**& transactions, int& count, Book** books, int bookCount, Borrower** borrowers, int borrowerCount);
-// };
-
 #endif

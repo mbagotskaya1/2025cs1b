@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include "ass8.h"
-#include <fstream>
 using namespace std;
 
 
@@ -130,40 +129,6 @@ void Library::displayAllTransactions() const {
         transactions[i]->displayTransaction();
     }
 }
-
-// bool DataHandler::saveBooks(Book** books, int count) const {
-//     ofstream out(bookFile);
-//     if (!out) return false;
-//     for (int i = 0; i < count; i++) {
-//         out << books[i]->getBookID() << "," << books[i]->getBookTitle() << "," << books[i]->getBookAuthor() << "," << books[i]->getPrice() << endl;
-//     }
-//     return true;
-// }
-// bool DataHandler::loadBooks(Book**& books, int& count) {
-    
-// }
-// bool DataHandler::saveBorrowers(Borrower** borrowers, int count) const {
-//     ofstream out(borrowerFile);
-//     if (!out) return false;
-//     for (int i = 0; i < count; i++) {
-//         out << borrowers[i]->getBorrowerID() << "," << borrowers[i]->getBorrowerName() << "," << borrowers[i]->getBorrowerEmail() << endl;
-//     }
-//     return true;
-// }
-// bool DataHandler::loadBorrowers(Borrower**& borrowers, int& count) {
-// }
-
-// bool DataHandler::saveTransactions(Transaction** transactions, int count) const {
-//     ofstream out(transactionFile);
-//     if (!out) return false;
-//     for (int i = 0; i < count; i++) {
-//         out << transactions[i]->getTransactionInfo() << endl;
-//     }
-//     return true;
-// }
-
-// bool DataHandler::loadTransactions(Transaction**& transactions, int& count, Book** books, int bookCount, Borrower** borrowers, int borrowerCount) {
-// }
 
 int main() {
     Library lib;
