@@ -1,0 +1,24 @@
+This is a simple 2-player Battleship game implemented in C++ using Object-Oriented Programming principles.
+Run the game
+Each player will be prompted (one at a time) to place the following ships:
+Carrier (5 spaces)
+Battleship (4 spaces)
+Cruiser (3 spaces)
+Submarine (3 spaces)
+Destroyer (2 spaces)
+To place a ship:
+Enter a starting coordinate like A0, C5, etc.
+Then enter the direction: H for horizontal or V for vertical
+After both players place their ships, they take turns attacking:
+Enter a target like B3
+The game will display Hit!, Miss!, or You sunk the [Ship]!
+The game ends when all ships of one player are sunk.
+Symbol	Meaning
+.	Empty cell
+S	Ship (only visible on your board)
+X	Hit ship
+O	Missed shot
+Input is case-sensitive; use uppercase letters for rows (A–J)
+Columns are from 0 to 9
+Ships cannot overlap or go out of bounds
+All input is validated with re-prompting if invalid
